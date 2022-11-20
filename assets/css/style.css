@@ -387,7 +387,6 @@ body {
 .nav-toggle-btn {
   color: var(--white);
   font-size: 30px;
-  border: 1px solid var(--white);
   padding: 4px;
 }
 
@@ -417,7 +416,7 @@ body {
   transition-duration: 0.5s;
 }
 
-.navbar-item:not(:last-child) {}
+.navbar-item:not(:last-child) { border-block-end: 1px solid var(--white_15); }
 
 .navbar-link {
   padding: 10px 25px;
